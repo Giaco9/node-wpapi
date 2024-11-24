@@ -4,7 +4,7 @@
     "url": "https://github.com/giaco9"
   },
   "name": "@giaco9/wpapi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An isomorphic JavaScript client for interacting with the WordPress REST API",
   "main": "wpapi.js",
   "repository": {
