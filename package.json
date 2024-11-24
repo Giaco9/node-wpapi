@@ -1,21 +1,21 @@
 {
   "author": {
-    "name": "K.Adam White",
-    "url": "http://www.kadamwhite.com"
+    "name": "Giacomo Consonni",
+    "url": "https://github.com/giaco9"
   },
-  "name": "wpapi",
-  "version": "2.0.0-alpha.1",
+  "name": "@giaco9/wpapi",
+  "version": "0.0.1",
   "description": "An isomorphic JavaScript client for interacting with the WordPress REST API",
   "main": "wpapi.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wp-api/node-wpapi.git"
+    "url": "https://github.com/giaco9/node-wpapi.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wp-api/node-wpapi/issues"
+    "url": "https://github.com/giaco9/node-wpapi/issues"
   },
-  "homepage": "https://github.com/wp-api/node-wpapi",
+  "homepage": "https://github.com/giaco9/node-wpapi",
   "keywords": [
     "api",
     "client",
@@ -48,7 +48,7 @@
     "postdocs": "rimraf documentation/api-readme.md",
     "jekyll": "node bin/jekyll",
     "release-docs": "node build/scripts/release-docs",
-    "release-npm": "npm run build && npm test && npm publish",
+    "release-npm": "npm run build && npm publish",
     "eslint": "eslint Gruntfile.js wpapi.js bin build lib tests",
     "lint": "npm run eslint",
     "watch": "jest --watch",
@@ -91,5 +91,8 @@
     "webpack": "^4.35.0",
     "webpack-bundle-analyzer": "^3.3.2",
     "webpack-cli": "^3.3.5"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
